@@ -24,7 +24,7 @@
        
    5.Run migrations
 
-       php artisan migrate --seed
+       php artisan migrate
        
    6.Run the server
 
