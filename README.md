@@ -3,21 +3,28 @@
 ## ⚙️ Setup Instructions
 
    1. Clone the repository
+
        git clone https://github.com/mahmoudabdallatief/taskTanta.git
        cd taskTanta
    2.Install dependencies
+
        composer install
        npm install && npm run dev
    3.Environment setup
+
        Copy the .env.example file to .env
        Update your database configuration inside .env
    4.Generate application key
+
        php artisan key:generate
    5.Run migrations
+
        php artisan migrate --seed
    6.Run the server
+
        php artisan serve
    7.Run tests
+
        php artisan test
    
    Approach
