@@ -4,7 +4,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/products.git
+   git clone https://github.com/mahmoudabdallatief/taskTanta.git
    cd products
    Approach
    1.Install dependencies
