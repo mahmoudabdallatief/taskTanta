@@ -7,6 +7,7 @@
        git clone https://github.com/mahmoudabdallatief/taskTanta.git
       
        cd taskTanta
+      
    2.Install dependencies
 
        composer install
