@@ -98,7 +98,7 @@ class ProductsController extends Controller
             return response()->json(['message' => 'Product not found'], 404);
         }
 
-        $product->update($request->except('_token'));
+        $product->update($request->except('_token','_method'));
 
         return response()->json([
             'message' => 'Product updated successfully',
