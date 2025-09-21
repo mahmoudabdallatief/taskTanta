@@ -12,8 +12,6 @@
 
        composer install
       
-       npm install && npm run dev
-      
    3.Environment setup
 
        Copy the .env.example file to .env
