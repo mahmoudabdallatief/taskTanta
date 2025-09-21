@@ -35,7 +35,7 @@
        php artisan test
        
    
-   Approach
+  ## ⚙️ Approach
    
    Used Laravel MVC structure to organize the code.
    
