@@ -6,20 +6,19 @@
    ```bash
    git clone https://github.com/mahmoudabdallatief/taskTanta.git
    cd taskTanta
-   Approach
-   1.Install dependencies
+   2.Install dependencies
     composer install
     npm install && npm run dev
-   2.Environment setup
+   3.Environment setup
        Copy the .env.example file to .env
        Update your database configuration inside .env
-   3.Generate application key
+   4.Generate application key
        php artisan key:generate
-   4.Run migrations
+   5.Run migrations
        php artisan migrate --seed
-   5.Run the server
+   6.Run the server
        php artisan serve
-   6-Run tests
+   7.Run tests
        php artisan test
    
    Approach
