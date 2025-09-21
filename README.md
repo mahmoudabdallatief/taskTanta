@@ -5,7 +5,7 @@
 1. **Clone the repository**
    ```bash
    git clone https://github.com/mahmoudabdallatief/taskTanta.git
-   cd products
+   cd taskTanta
    Approach
    1.Install dependencies
     composer install
