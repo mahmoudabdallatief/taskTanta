@@ -7,13 +7,31 @@
    git clone https://github.com/your-username/products.git
    cd products
    Approach
+   1.Install dependencies
+    composer install
+    npm install && npm run dev
+   2.Environment setup
+                                                                                                                                        انسخ ملف .env.example إلى .env
+                                                                                                                                                 عدل إعدادات قاعدة البيانات
+   3.Generate application key
+       php artisan key:generate
+   4.Run migrations
+       php artisan migrate --seed
+   5.Run the server
+       php artisan serve
+   6-Run tests
+       php artisan test
+   
+   Approach
+                                                                                                                            استخدام Laravel MVC structure لتنظيم الكود.
 
-المشروع مخصص لإدارة المنتجات داخل النظام.
+                                                                                                                الاعتماد على Migrations في إنشاء قاعدة البيانات (جدول المنتجات).
 
-تم استخدام Migrations لإنشاء وإدارة جداول المنتجات.
+                                                                                                               بناء RESTful API لتسهيل التعامل مع المنتجات عبر الـ endpoints.
 
-الاعتماد على MVC structure في Laravel لتنظيم الكود.
+                                                                                                      إضافة Unit Tests للتأكد من إن إنشاء المنتجات عبر الـ API بيشتغل بشكل صحيح.
 
-إضافة Tests للتأكد من عمل وظائف CRUD الخاصة بالمنتجات بشكل صحيح.
+                                                                                                          الهدف إن أي مطور يقدر يعمل clone ويشغّل المشروع بسهولة بخطوات واضحة.
 
-الهدف إن أي مطور يقدر يعمل clone ويشغل المشروع بخطوات بسيطة وواضحة.
+       
+       
