@@ -11,8 +11,8 @@
     composer install
     npm install && npm run dev
    2.Environment setup
-                                                                                                                                        انسخ ملف .env.example إلى .env
-                                                                                                                                                 عدل إعدادات قاعدة البيانات
+       Copy the .env.example file to .env
+       Update your database configuration inside .env
    3.Generate application key
        php artisan key:generate
    4.Run migrations
@@ -23,15 +23,16 @@
        php artisan test
    
    Approach
-                                                                                                                            استخدام Laravel MVC structure لتنظيم الكود.
-
-                                                                                                                الاعتماد على Migrations في إنشاء قاعدة البيانات (جدول المنتجات).
-
-                                                                                                               بناء RESTful API لتسهيل التعامل مع المنتجات عبر الـ endpoints.
-
-                                                                                                      إضافة Unit Tests للتأكد من إن إنشاء المنتجات عبر الـ API بيشتغل بشكل صحيح.
-
-                                                                                                          الهدف إن أي مطور يقدر يعمل clone ويشغّل المشروع بسهولة بخطوات واضحة.
+   
+       Used Laravel MVC structure to organize the code.
+   
+       Relied on Migrations to create and manage the database (products table).
+    
+       Built a RESTful API to handle products via endpoints.
+    
+      Added Unit Tests to verify product creation through the API.
+    
+      The main goal is to make it easy for any developer to clone and run the project with clear, straightforward steps.
 
        
        
